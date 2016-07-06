@@ -51,8 +51,3 @@ function getImages() {
     }] 
   };
 }
-
-function getImagesByCategory(category) { 
-  var images = getImages();
-  return images[category] || []; 
-}
